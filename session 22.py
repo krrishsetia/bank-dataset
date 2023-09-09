@@ -17,7 +17,7 @@ from sklearn.neighbors import KNeighborsClassifier
 
 pd.options.display.max_columns = 5
 pd.options.display.max_rows = 100000
-data = pd.read_csv('csv files/bank-full.csv')
+data = pd.read_csv('bank-full.csv')
 
 data = data.drop('duration',axis=1)
 data.head()
